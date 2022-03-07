@@ -5,7 +5,7 @@ import bodyParser from "body-parser";
 import cors from 'cors';
 
 
-const server = new Server();
+const server = Server.instance;
 
 // BodyParser
 // para generar un obj de javaScript, de lo q venga en el POST
